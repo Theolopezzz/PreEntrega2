@@ -1,0 +1,150 @@
+body {
+    background-color: #ebebeb;
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+}
+/* Header */
+.navbar {
+    background-color: #e2e2e2;
+    box-shadow: 0 3px 15px hsla(242, 100%, 71%, 0.411);
+}
+.navbar-brand {
+    font-size:27px;
+    margin: 7px;
+    font-weight: bold;
+    text-shadow: #424242 1px 1.5px 2px;
+}
+.boton-header{
+    background-color: #4F4AE0;
+    color: rgb(46, 46, 46);
+    border-radius: 8px; 
+    margin-right: 15px;
+    border: none;
+    height: 38px;
+    width: 89;
+}
+.color-azul{
+    color: #4F4AE0;
+}
+.btn-outline-success{
+    color: #e2e2e2;
+    background-color: #4F4AE0;
+    border: none;
+}
+.form-control{
+    border-radius: 8px;
+    border: none;
+    background-color:#b3b1ee;
+    color:#000000
+}
+/* Main */
+#carouselExampleAutoplaying {
+  border-radius: 15px;
+  overflow: hidden; 
+}
+.carousel {
+  margin: 10px auto;
+  width: 97%;
+}
+main h1 {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 10px 0 40px 0;
+  text-shadow: #af98ff 1px 2px 1px;
+}
+/* .img-inicio{
+  margin:100px;
+  display: block;
+  margin: 0 auto;
+  width: 90%;
+  border-radius: 15px;
+} */
+h3{
+  margin: 40px 0px 50px 18px;
+}
+.contenedor-productos-destacados{
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 15px;
+} 
+.producto-destacado{
+  height: 200px;
+  box-shadow: 5px 5px 0px 2px #d1d1d1;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  border-radius: 15px;
+}
+.producto-destacado img{
+  width: 40%;
+  height: auto;
+  object-fit: contain;
+}
+
+.producto-destacado-info{
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.producto-destacado-info button{
+  align-self: center;
+  color: #ebebeb;
+  margin-top: 20px;
+  padding: 0% 50px;
+}
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #e2e2e2;
+  color: #292929;
+  padding: 30px 0;
+  margin-top: 60px;
+}
+footer h4 {
+  margin: 10px 0px 10px 0px;
+}
+footer button {
+  background-color: #4F4AE0;
+  color: #e2e2e2;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  margin-left: 15px;
+  padding: 5px 15px;
+}
+.boton-preguntas{
+  background-color: #9b9b9b;
+  color: #292929;
+}
+
+
+@media (min-width: 768px) {
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.custom-hr {
+  width: 60%;
+  height: 2px;
+  background-color: #4F4AE0;
+  border: none;
+}
+
+/* Optional: sombra a los cards */
+.card {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+}
