@@ -26,7 +26,7 @@ body {
   margin-right: 15px;
   border: none;
   height: 38px;
-  width: 89px;
+  width: 60px;
 }
 .color-azul {
   color: #4f4ae0;
@@ -98,6 +98,7 @@ h3 {
 }
 .producto-destacado-info button {
   align-self: center;
+  width: 200px;
   color: #ebebeb;
   margin-top: 20px;
   padding: 0% 50px;
@@ -130,6 +131,7 @@ h3 {
   margin-top: 25px;
 }
 .producto-destacado-pag2-info button {
+  width: 200px;
   align-self: center;
   color: #ebebeb;
   margin-top: 20px;
